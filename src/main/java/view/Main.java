@@ -10,6 +10,6 @@ public class Main {
                 new AnnotationConfigApplicationContext("/service");
 
         System.out.println("\tCurrent time:");
-        context.getBean(ShowTime.class/*ShowTime.class*/);
+        context.getBean(ShowTime.class);
     }
 }
